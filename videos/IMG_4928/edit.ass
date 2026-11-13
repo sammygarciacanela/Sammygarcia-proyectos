@@ -1,0 +1,84 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Inter SemiBold,48,&H00FFFFFF,&H00FFFFFF,&H90000000,&H70000000,0,0,0,0,100,100,0,0,1,3,2,5,80,80,0,1
+Style: TSmall,Inter Display ExtraBold,58,&H00FFFFFF,&H00FFFFFF,&H90000000,&H80000000,0,0,0,0,100,100,0,0,1,2,3,5,70,70,0,1
+Style: TBig,Inter Display Black,104,&H004CC9F2,&H004CC9F2,&H00000000,&H90000000,0,0,0,0,100,100,-1,0,1,0,4,5,60,60,0,1
+Style: Num,Inter Display Black,420,&HB44CC9F2,&HB44CC9F2,&H00000000,&H00000000,0,0,0,0,100,100,-4,0,1,0,0,9,40,40,0,1
+Style: CTA,Inter SemiBold,40,&H00FFFFFF,&H00FFFFFF,&H90000000,&H70000000,0,0,0,0,100,100,0,0,1,3,2,5,90,90,0,1
+Style: Firma,Inter Display ExtraBold,44,&H00FFFFFF,&H00FFFFFF,&H90000000,&H70000000,0,0,0,0,100,100,1,0,1,2,2,5,60,60,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 5,0:00:00.00,0:00:02.37,TSmall,,0,0,0,,{\an2\pos(540,336)}{\alpha&HFF&\t(0,140,\alpha&H00&)}el {\alpha&HFF&\t(240,380,\alpha&H00&)}ego
+Dialogue: 3,0:00:00.00,0:00:02.37,TBig,,0,0,0,,{\an8\pos(540,330)\fs110\c&H4CC9F2&\3c&H4CC9F2&\bord7\blur14}{\alpha&HFF&\t(540,680,\alpha&HA8&)}NO {\alpha&HFF&\t(820,960,\alpha&HA8&)}CONSTRUYE\N{\alpha&HFF&\t(1340,1480,\alpha&HA8&)}LÍDERES
+Dialogue: 4,0:00:00.00,0:00:02.37,TBig,,0,0,0,,{\an8\pos(540,330)\fs110\c&H4CC9F2&}{\alpha&HFF&\t(540,680,\alpha&H00&)}NO {\alpha&HFF&\t(820,960,\alpha&H00&)}CONSTRUYE\N{\alpha&HFF&\t(1340,1480,\alpha&H00&)}LÍDERES
+Dialogue: 5,0:00:22.10,0:00:23.30,TSmall,,0,0,0,,{\an2\pos(540,476)}{\alpha&HFF&\t(119,259,\alpha&H00&)}un {\alpha&HFF&\t(439,579,\alpha&H00&)}verdadero
+Dialogue: 3,0:00:22.10,0:00:23.30,TBig,,0,0,0,,{\an8\pos(540,470)\fs150\c&H4CC9F2&\3c&H4CC9F2&\bord7\blur14}{\alpha&HFF&\t(939,1079,\alpha&HA8&)}LÍDER
+Dialogue: 4,0:00:22.10,0:00:23.30,TBig,,0,0,0,,{\an8\pos(540,470)\fs150\c&H4CC9F2&}{\alpha&HFF&\t(939,1079,\alpha&H00&)}LÍDER
+Dialogue: 1,0:00:23.30,0:00:24.12,Num,,0,0,0,,{\an5\pos(540,420)\fad(120,0)}#1
+Dialogue: 3,0:00:23.30,0:00:24.12,TBig,,0,0,0,,{\an8\pos(540,370)\fs100\c&H4CC9F2&\3c&H4CC9F2&\bord7\blur14}{\alpha&HFF&\t(0,140,\alpha&HA8&)}ESCUCHA
+Dialogue: 4,0:00:23.30,0:00:24.12,TBig,,0,0,0,,{\an8\pos(540,370)\fs100\c&H4CC9F2&}{\alpha&HFF&\t(0,140,\alpha&H00&)}ESCUCHA
+Dialogue: 1,0:00:24.12,0:00:25.46,Num,,0,0,0,,{\an5\pos(540,420)\fad(120,0)}#2
+Dialogue: 3,0:00:24.12,0:00:25.46,TBig,,0,0,0,,{\an8\pos(540,330)\fs100\c&H4CC9F2&\3c&H4CC9F2&\bord7\blur14}{\alpha&HFF&\t(0,140,\alpha&HA8&)}RECONOCE\N{\alpha&HFF&\t(0,140,\alpha&HA8&)}SUS {\alpha&HFF&\t(0,140,\alpha&HA8&)}ERRORES
+Dialogue: 4,0:00:24.12,0:00:25.46,TBig,,0,0,0,,{\an8\pos(540,330)\fs100\c&H4CC9F2&}{\alpha&HFF&\t(0,140,\alpha&H00&)}RECONOCE\N{\alpha&HFF&\t(0,140,\alpha&H00&)}SUS {\alpha&HFF&\t(0,140,\alpha&H00&)}ERRORES
+Dialogue: 1,0:00:25.46,0:00:27.94,Num,,0,0,0,,{\an5\pos(540,420)\fad(120,0)}#3
+Dialogue: 3,0:00:25.46,0:00:27.94,TBig,,0,0,0,,{\an8\pos(540,330)\fs100\c&H4CC9F2&\3c&H4CC9F2&\bord7\blur14}{\alpha&HFF&\t(0,140,\alpha&HA8&)}COMPARTE {\alpha&HFF&\t(0,140,\alpha&HA8&)}LO\N{\alpha&HFF&\t(0,140,\alpha&HA8&)}QUE {\alpha&HFF&\t(0,140,\alpha&HA8&)}SABE
+Dialogue: 4,0:00:25.46,0:00:27.94,TBig,,0,0,0,,{\an8\pos(540,330)\fs100\c&H4CC9F2&}{\alpha&HFF&\t(0,140,\alpha&H00&)}COMPARTE {\alpha&HFF&\t(0,140,\alpha&H00&)}LO\N{\alpha&HFF&\t(0,140,\alpha&H00&)}QUE {\alpha&HFF&\t(0,140,\alpha&H00&)}SABE
+Dialogue: 1,0:00:27.94,0:00:29.99,Num,,0,0,0,,{\an5\pos(540,420)\fad(120,0)}#4
+Dialogue: 3,0:00:27.94,0:00:29.99,TBig,,0,0,0,,{\an8\pos(540,330)\fs100\c&H4CC9F2&\3c&H4CC9F2&\bord7\blur14}{\alpha&HFF&\t(0,140,\alpha&HA8&)}DESARROLLA\N{\alpha&HFF&\t(0,140,\alpha&HA8&)}PERSONAS
+Dialogue: 4,0:00:27.94,0:00:29.99,TBig,,0,0,0,,{\an8\pos(540,330)\fs100\c&H4CC9F2&}{\alpha&HFF&\t(0,140,\alpha&H00&)}DESARROLLA\N{\alpha&HFF&\t(0,140,\alpha&H00&)}PERSONAS
+Dialogue: 5,0:00:31.78,0:00:35.19,TSmall,,0,0,0,,{\an2\pos(540,336)}{\alpha&HFF&\t(140,280,\alpha&H00&)}líder {\alpha&HFF&\t(420,560,\alpha&H00&)}inseguro
+Dialogue: 3,0:00:31.78,0:00:35.19,TBig,,0,0,0,,{\an8\pos(540,330)\fs110\c&H4CC9F2&\3c&H4CC9F2&\bord7\blur14}{\alpha&HFF&\t(2040,2180,\alpha&HA8&)}TODO {\alpha&HFF&\t(2300,2440,\alpha&HA8&)}DEPENDE\N{\alpha&HFF&\t(2800,2940,\alpha&HA8&)}DE {\alpha&HFF&\t(2980,3120,\alpha&HA8&)}ÉL
+Dialogue: 4,0:00:31.78,0:00:35.19,TBig,,0,0,0,,{\an8\pos(540,330)\fs110\c&H4CC9F2&}{\alpha&HFF&\t(2040,2180,\alpha&H00&)}TODO {\alpha&HFF&\t(2300,2440,\alpha&H00&)}DEPENDE\N{\alpha&HFF&\t(2800,2940,\alpha&H00&)}DE {\alpha&HFF&\t(2980,3120,\alpha&H00&)}ÉL
+Dialogue: 5,0:00:35.07,0:00:39.11,TSmall,,0,0,0,,{\an2\pos(540,336)}{\alpha&HFF&\t(109,249,\alpha&H00&)}líder {\alpha&HFF&\t(450,590,\alpha&H00&)}humilde
+Dialogue: 3,0:00:35.07,0:00:39.11,TBig,,0,0,0,,{\an8\pos(540,330)\fs106\c&H4CC9F2&\3c&H4CC9F2&\bord7\blur14}{\alpha&HFF&\t(2450,2590,\alpha&HA8&)}OTROS {\alpha&HFF&\t(3170,3310,\alpha&HA8&)}TRIUNFAN
+Dialogue: 4,0:00:35.07,0:00:39.11,TBig,,0,0,0,,{\an8\pos(540,330)\fs106\c&H4CC9F2&}{\alpha&HFF&\t(2450,2590,\alpha&H00&)}OTROS {\alpha&HFF&\t(3170,3310,\alpha&H00&)}TRIUNFAN
+Dialogue: 5,0:00:43.61,0:00:46.31,TSmall,,0,0,0,,{\an2\pos(540,336)}{\alpha&HFF&\t(0,140,\alpha&H00&)}el éxito se mide
+Dialogue: 3,0:00:43.61,0:00:46.31,TBig,,0,0,0,,{\an8\pos(540,330)\fs78\c&H4CC9F2&\3c&H4CC9F2&\bord7\blur14}{\alpha&HFF&\t(509,649,\alpha&HA8&)}LAS {\alpha&HFF&\t(770,910,\alpha&HA8&)}PERSONAS\N{\alpha&HFF&\t(1230,1370,\alpha&HA8&)}QUE {\alpha&HFF&\t(1509,1649,\alpha&HA8&)}AYUDAS {\alpha&HFF&\t(1789,1929,\alpha&HA8&)}A {\alpha&HFF&\t(1990,2130,\alpha&HA8&)}CRECER
+Dialogue: 4,0:00:43.61,0:00:46.31,TBig,,0,0,0,,{\an8\pos(540,330)\fs78\c&H4CC9F2&}{\alpha&HFF&\t(509,649,\alpha&H00&)}LAS {\alpha&HFF&\t(770,910,\alpha&H00&)}PERSONAS\N{\alpha&HFF&\t(1230,1370,\alpha&H00&)}QUE {\alpha&HFF&\t(1509,1649,\alpha&H00&)}AYUDAS {\alpha&HFF&\t(1789,1929,\alpha&H00&)}A {\alpha&HFF&\t(1990,2130,\alpha&H00&)}CRECER
+Dialogue: 5,0:00:48.05,0:00:52.57,TSmall,,0,0,0,,{\an2\pos(540,336)}{\alpha&HFF&\t(49,189,\alpha&H00&)}¿te {\alpha&HFF&\t(769,909,\alpha&H00&)}siguen {\alpha&HFF&\t(989,1129,\alpha&H00&)}por {\alpha&HFF&\t(1249,1389,\alpha&H00&)}tu {\alpha&HFF&\t(1369,1509,\alpha&H00&)}posición...
+Dialogue: 3,0:00:48.05,0:00:52.57,TBig,,0,0,0,,{\an8\pos(540,330)\fs104\c&H4CC9F2&\3c&H4CC9F2&\bord7\blur14}{\alpha&HFF&\t(1889,2029,\alpha&HA8&)}O {\alpha&HFF&\t(2429,2569,\alpha&HA8&)}POR {\alpha&HFF&\t(2789,2929,\alpha&HA8&)}CÓMO\N{\alpha&HFF&\t(3049,3189,\alpha&HA8&)}LOS {\alpha&HFF&\t(3269,3409,\alpha&HA8&)}AYUDASTE?
+Dialogue: 4,0:00:48.05,0:00:52.57,TBig,,0,0,0,,{\an8\pos(540,330)\fs104\c&H4CC9F2&}{\alpha&HFF&\t(1889,2029,\alpha&H00&)}O {\alpha&HFF&\t(2429,2569,\alpha&H00&)}POR {\alpha&HFF&\t(2789,2929,\alpha&H00&)}CÓMO\N{\alpha&HFF&\t(3049,3189,\alpha&H00&)}LOS {\alpha&HFF&\t(3269,3409,\alpha&H00&)}AYUDASTE?
+Dialogue: 2,0:00:52.50,0:00:55.40,CTA,,0,0,0,,{\an5\pos(540,1430)\fad(200,0)}compártelo con un líder que necesite escuchar esto
+Dialogue: 3,0:00:53.69,0:00:55.40,TBig,,0,0,0,,{\an8\pos(540,330)\fs130\c&H4CC9F2&\3c&H4CC9F2&\bord7\blur14}{\alpha&HFF&\t(0,140,\alpha&HA8&)}¡VAMOS\N{\alpha&HFF&\t(280,420,\alpha&HA8&)}POR {\alpha&HFF&\t(560,700,\alpha&HA8&)}TODO!
+Dialogue: 4,0:00:53.69,0:00:55.40,TBig,,0,0,0,,{\an8\pos(540,330)\fs130\c&H4CC9F2&}{\alpha&HFF&\t(0,140,\alpha&H00&)}¡VAMOS\N{\alpha&HFF&\t(280,420,\alpha&H00&)}POR {\alpha&HFF&\t(560,700,\alpha&H00&)}TODO!
+Dialogue: 5,0:00:54.39,0:00:55.40,Firma,,0,0,0,,{\an8\pos(540,662)\fad(200,0)}Sammy García  ·  @sammygarcia
+Dialogue: 0,0:00:02.46,0:00:02.92,Sub,,0,0,0,,{\an5\pos(540,1330)}porque si
+Dialogue: 0,0:00:02.92,0:00:04.20,Sub,,0,0,0,,{\an5\pos(540,1330)}tú necesitas que
+Dialogue: 0,0:00:04.20,0:00:05.56,Sub,,0,0,0,,{\an5\pos(540,1330)}constantemente la gente
+Dialogue: 0,0:00:05.56,0:00:06.10,Sub,,0,0,0,,{\an5\pos(540,1330)}te vea como
+Dialogue: 0,0:00:06.10,0:00:07.05,Sub,,0,0,0,,{\an5\pos(540,1330)}el jefe
+Dialogue: 0,0:00:07.08,0:00:08.24,Sub,,0,0,0,,{\an5\pos(540,1330)}quizás no has
+Dialogue: 0,0:00:08.24,0:00:09.30,Sub,,0,0,0,,{\an5\pos(540,1330)}entendido lo que
+Dialogue: 0,0:00:09.30,0:00:11.14,Sub,,0,0,0,,{\an5\pos(540,1330)}es el {\c&H4CC9F2&\b1}liderazgo{\c&HFFFFFF&\b0}
+Dialogue: 0,0:00:11.14,0:00:11.34,Sub,,0,0,0,,{\an5\pos(540,1330)}mira
+Dialogue: 0,0:00:11.34,0:00:11.78,Sub,,0,0,0,,{\an5\pos(540,1330)}con los años
+Dialogue: 0,0:00:11.78,0:00:12.82,Sub,,0,0,0,,{\an5\pos(540,1330)}he aprendido algo
+Dialogue: 0,0:00:12.82,0:00:13.42,Sub,,0,0,0,,{\an5\pos(540,1330)}el {\c&H4CC9F2&\b1}liderazgo{\c&HFFFFFF&\b0}
+Dialogue: 0,0:00:13.42,0:00:14.02,Sub,,0,0,0,,{\an5\pos(540,1330)}no se trata
+Dialogue: 0,0:00:14.02,0:00:14.80,Sub,,0,0,0,,{\an5\pos(540,1330)}de siempre tener
+Dialogue: 0,0:00:14.80,0:00:15.77,Sub,,0,0,0,,{\an5\pos(540,1330)}la razón
+Dialogue: 0,0:00:15.80,0:00:16.42,Sub,,0,0,0,,{\an5\pos(540,1330)}controlar todas las
+Dialogue: 0,0:00:16.42,0:00:17.34,Sub,,0,0,0,,{\an5\pos(540,1330)}decisiones o buscar
+Dialogue: 0,0:00:17.34,0:00:18.36,Sub,,0,0,0,,{\an5\pos(540,1330)}reconocimiento
+Dialogue: 0,0:00:18.36,0:00:19.00,Sub,,0,0,0,,{\an5\pos(540,1330)}porque cuando
+Dialogue: 0,0:00:19.00,0:00:20.10,Sub,,0,0,0,,{\an5\pos(540,1330)}el {\c&H4CC9F2&\b1}ego{\c&HFFFFFF&\b0} dirige
+Dialogue: 0,0:00:20.10,0:00:20.92,Sub,,0,0,0,,{\an5\pos(540,1330)}la persona deja
+Dialogue: 0,0:00:20.92,0:00:22.22,Sub,,0,0,0,,{\an5\pos(540,1330)}de sentirse valorada
+Dialogue: 0,0:00:30.52,0:00:31.04,Sub,,0,0,0,,{\an5\pos(540,1330)}veces es
+Dialogue: 0,0:00:31.04,0:00:31.88,Sub,,0,0,0,,{\an5\pos(540,1330)}la diferencia
+Dialogue: 0,0:00:39.82,0:00:40.50,Sub,,0,0,0,,{\an5\pos(540,1330)}de un {\c&H4CC9F2&\b1}líder{\c&HFFFFFF&\b0}
+Dialogue: 0,0:00:40.50,0:00:41.26,Sub,,0,0,0,,{\an5\pos(540,1330)}no se mide
+Dialogue: 0,0:00:41.26,0:00:41.94,Sub,,0,0,0,,{\an5\pos(540,1330)}solamente por
+Dialogue: 0,0:00:41.94,0:00:42.56,Sub,,0,0,0,,{\an5\pos(540,1330)}lo que logra
+Dialogue: 0,0:00:42.56,0:00:43.66,Sub,,0,0,0,,{\an5\pos(540,1330)}personalmente
+Dialogue: 0,0:00:46.44,0:00:47.52,Sub,,0,0,0,,{\an5\pos(540,1330)}te pregunto
+Dialogue: 0,0:00:47.52,0:00:48.10,Sub,,0,0,0,,{\an5\pos(540,1330)}¿tu {\c&H4CC9F2&\b1}equipo{\c&HFFFFFF&\b0}
+Dialogue: 0,0:00:52.76,0:00:53.79,Sub,,0,0,0,,{\an5\pos(540,1330)}en los comentarios
