@@ -59,7 +59,7 @@ title(a,b,[("el",T(i)),("ego",T(i+1))],[[("NO",T(i+2)),("CONSTRUYE",T(i+3))],[("
 # 2) Pantalla azul: Un verdadero LÍDER
 card=[s for s in tl if s["mode"]=="card"][0]["out"]
 i=idx("Un verdadero líder escucha,")
-title(card[0],card[1],[("un",T(i)),("verdadero",T(i+1))],[("LÍDER",T(i+2))],y=470,size=150); hidden.append(tuple(card))
+title(card[0],card[1],[("un",T(i)),("verdadero",T(i+1))],[("LÍDER",T(i+2))],y=330,size=140); hidden.append(tuple(card))
 # 3) Lista #1–#4
 items=[("escucha,","ESCUCHA"),("reconoce sus errores,","RECONOCE SUS ERRORES"),("comparte su conocimiento","COMPARTE LO QUE SABE"),("desarrolla personas.","DESARROLLA PERSONAS")]
 starts=[T(idx(p,i)) for p,_ in items]

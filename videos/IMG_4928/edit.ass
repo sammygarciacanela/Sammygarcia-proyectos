@@ -19,9 +19,9 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 5,0:00:00.00,0:00:02.37,TSmall,,0,0,0,,{\an2\pos(540,336)}{\alpha&HFF&\t(0,140,\alpha&H00&)}el {\alpha&HFF&\t(240,380,\alpha&H00&)}ego
 Dialogue: 3,0:00:00.00,0:00:02.37,TBig,,0,0,0,,{\an8\pos(540,330)\fs110\c&H4CC9F2&\3c&H4CC9F2&\bord7\blur14}{\alpha&HFF&\t(540,680,\alpha&HA8&)}NO {\alpha&HFF&\t(820,960,\alpha&HA8&)}CONSTRUYE\N{\alpha&HFF&\t(1340,1480,\alpha&HA8&)}LÍDERES
 Dialogue: 4,0:00:00.00,0:00:02.37,TBig,,0,0,0,,{\an8\pos(540,330)\fs110\c&H4CC9F2&}{\alpha&HFF&\t(540,680,\alpha&H00&)}NO {\alpha&HFF&\t(820,960,\alpha&H00&)}CONSTRUYE\N{\alpha&HFF&\t(1340,1480,\alpha&H00&)}LÍDERES
-Dialogue: 5,0:00:22.10,0:00:23.30,TSmall,,0,0,0,,{\an2\pos(540,476)}{\alpha&HFF&\t(119,259,\alpha&H00&)}un {\alpha&HFF&\t(439,579,\alpha&H00&)}verdadero
-Dialogue: 3,0:00:22.10,0:00:23.30,TBig,,0,0,0,,{\an8\pos(540,470)\fs150\c&H4CC9F2&\3c&H4CC9F2&\bord7\blur14}{\alpha&HFF&\t(939,1079,\alpha&HA8&)}LÍDER
-Dialogue: 4,0:00:22.10,0:00:23.30,TBig,,0,0,0,,{\an8\pos(540,470)\fs150\c&H4CC9F2&}{\alpha&HFF&\t(939,1079,\alpha&H00&)}LÍDER
+Dialogue: 5,0:00:22.10,0:00:23.30,TSmall,,0,0,0,,{\an2\pos(540,336)}{\alpha&HFF&\t(119,259,\alpha&H00&)}un {\alpha&HFF&\t(439,579,\alpha&H00&)}verdadero
+Dialogue: 3,0:00:22.10,0:00:23.30,TBig,,0,0,0,,{\an8\pos(540,330)\fs140\c&H4CC9F2&\3c&H4CC9F2&\bord7\blur14}{\alpha&HFF&\t(939,1079,\alpha&HA8&)}LÍDER
+Dialogue: 4,0:00:22.10,0:00:23.30,TBig,,0,0,0,,{\an8\pos(540,330)\fs140\c&H4CC9F2&}{\alpha&HFF&\t(939,1079,\alpha&H00&)}LÍDER
 Dialogue: 1,0:00:23.30,0:00:24.12,Num,,0,0,0,,{\an5\pos(540,420)\fad(120,0)}#1
 Dialogue: 3,0:00:23.30,0:00:24.12,TBig,,0,0,0,,{\an8\pos(540,370)\fs100\c&H4CC9F2&\3c&H4CC9F2&\bord7\blur14}{\alpha&HFF&\t(0,140,\alpha&HA8&)}ESCUCHA
 Dialogue: 4,0:00:23.30,0:00:24.12,TBig,,0,0,0,,{\an8\pos(540,370)\fs100\c&H4CC9F2&}{\alpha&HFF&\t(0,140,\alpha&H00&)}ESCUCHA
